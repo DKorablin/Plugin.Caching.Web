@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+	<metadata>
+		<id>AlphaOmega.SAL.Plugin.Caching.Web</id>
+		<version>0.0.0.0</version>
+		<authors>DKorablin</authors>
+		<license type="expression">Apache-1.0</license>
+		<readme>docs\README.md</readme>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<projectUrl>https://github.com/DKorablin/Plugin.Caching.Web</projectUrl>
+		<repository type="git" url="https://github.com/DKorablin/Plugin.Caching.Web" />
+		<description>This cache plugin is based on System.Web.Caching.Cache</description>
+		<releaseNotes></releaseNotes>
+		<copyright>Danila Korablin</copyright>
+		<tags>SAL,Plugin,Caching</tags>
+		<dependencies>
+			<group targetFramework="net20">
+				<dependency id="SAL.Interface.Caching" version="1.1.0" />
+			</group>
+		</dependencies>
+	</metadata>
+	<files>
+		<file src="README.md" target="docs" />
+		<!--file src="bin\net20\Plugin.Caching.Web.xml" target="xml" /-->
+		<file src="bin\net20\Plugin.Caching.Web.dll" target="lib\net20" />
+	</files>
+</package>

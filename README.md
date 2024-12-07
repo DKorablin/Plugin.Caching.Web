@@ -1,2 +1,2 @@
-# TEMPLATE plugin
-This is a template plugin description
+# Web caching plugin
+This cache plugin is based on System.Web.Caching.Cache
