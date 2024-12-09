@@ -27,8 +27,6 @@ namespace Plugin.Caching.Web
 		Boolean IPlugin.OnDisconnection(DisconnectMode mode)
 			=> true;
 
-		#region ICachePlugin
-
 		Int32 ICachePlugin.Count => 1;
 
 		ICacheModule ICachePlugin.this[String name] => WebCacheModule.Instance;
@@ -46,8 +44,6 @@ namespace Plugin.Caching.Web
 
 		IEnumerator IEnumerable.GetEnumerator()
 			=> this.GetEnumerator();
-
-		#endregion ICachePlugin
 
 		private static TraceSource CreateTraceSource<T>(String name = null) where T : IPlugin
 		{
